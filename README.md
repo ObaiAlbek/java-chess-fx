@@ -86,4 +86,4 @@ Das Projekt folgt streng einer **Layered Architecture**, um Wartbarkeit und Erwe
     Führen Sie die Klasse `de.obaialbek.chess.gui.Launcher` aus.
 
 ---
-*Erstellt von [Dein Name].*
+*Erstellt von Obai Albek.*
