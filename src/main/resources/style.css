@@ -1,0 +1,46 @@
+/* Globale Einstellungen für die App */
+.root {
+    -fx-base: #2b2b2b;       /* Dunkler Hintergrund */
+    -fx-background: #2b2b2b;
+    -fx-font-family: 'Segoe UI', sans-serif;
+}
+
+/* Der Bereich links (VBox) */
+.sidebar {
+    -fx-background-color: #3c3f41;
+    -fx-padding: 20;
+    -fx-spacing: 15;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 0);
+}
+
+/* Überschrift */
+.title-label {
+    -fx-text-fill: #e8e8e8;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+/* Status-Text (Wer ist am Zug?) */
+.status-label {
+    -fx-text-fill: #aaaaaa;
+    -fx-font-size: 14px;
+}
+
+/* Der "Neues Spiel" Button */
+.action-button {
+    -fx-background-color: #4CAF50; /* Modernes Grün */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-padding: 8 15 8 15;
+}
+
+.action-button:hover {
+    -fx-background-color: #45a049; /* Dunkler beim Drüberfahren */
+}
+
+.action-button:pressed {
+    -fx-background-color: #3e8e41;
+}
